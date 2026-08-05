@@ -45,6 +45,8 @@ python sample.py --out_dir=out-iqbal --start="Khudi" --num_samples=3 --max_new_t
 - **Overfitting onset identified around step ~1500** — validation loss plateaued (1.38 → 1.39) while training loss kept dropping (1.05 → 0.92) through step 2000, indicating the model began memorizing rather than generalizing past that point. The step-1500 checkpoint is arguably the better model, even though training continued to 2000.
 - Qualitative check: the model reliably reproduces domain-specific vocabulary ("Self," "Love," "philosophy," "Moslem," "Brahmin"), poetic line structure, and even picked up the verse-numbering convention from the source text formatting. Grammar breaks down at the phrase level ("waterdren me sight") — an expected limitation of character-level modeling on a small (~160KB) corpus, where the model learns local character patterns faster than full grammatical structure.
 
+![Training and validation loss curve](iqbalgpt_loss_curve.png)
+
 ## Sample output
 
 ```
