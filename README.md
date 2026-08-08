@@ -2,7 +2,7 @@
 
 A character-level GPT language model trained from scratch on the poetry of Allama Iqbal, built using Andrej Karpathy's nanoGPT framework.
 
-## What it does
+## What it does 
 
 Generates Iqbal-style poetic text via autoregressive sampling. The model was trained entirely from scratch on a single work: **"The Secrets of the Self" (Asrár-i Khudí)**, R.A. Nicholson's 1920 English translation of Iqbal's original Persian philosophical poem — a public domain text sourced from Project Gutenberg.
 
