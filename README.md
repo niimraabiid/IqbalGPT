@@ -71,7 +71,7 @@ It is govening by the strong of Love
 
 ## A note on this project
 
-This model is a small technical exercise in character-level language modeling — it is not, and could never be, a replacement for Allama Iqbal's actual words. Iqbal's poetry carries philosophical depth, spiritual weight, and linguistic mastery that no few-million-parameter model trained on a laptop or free-tier GPU could approach. This project exists to explore how transformers learn structure and style from text, using his work as a respectful case study — not to imitate or diminish it.
+This model is a small technical exercise in character-level language modeling — it is not, and could of course never be, a replacement for Allama Iqbal's actual words. Iqbal's poetry carries philosophical depth, spiritual weight, and linguistic mastery that no few-million-parameter model trained on a laptop or free-tier GPU could approach. This project exists to explore how transformers learn structure and style from text, using his work as a respectful case study — not to imitate or diminish it.
 
 ## Acknowledgments
 
